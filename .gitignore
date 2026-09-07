@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+scripts/reddit_newspaper_config.py
+*.tar.gz

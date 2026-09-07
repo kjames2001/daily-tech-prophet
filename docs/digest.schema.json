@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-07",
+  "total_posts": 68,
+  "total_subs": 16,
+  "fetcher_notes": "combined feed missed 1 sub(s): docker\nr/docker (retry 1): fetch failed",
+  "sections": [
+    {
+      "name": "TOP PICKS",
+      "lead": true,
+      "articles": [
+        {
+          "title": "Example post about a self-hosted tool",
+          "summary": "One or two sentences explaining what the post is about and why it matters.",
+          "link": "https://www.reddit.com/r/selfhosted/comments/1abc123/example_post/",
+          "author": "/u/example_user",
+          "subreddit": "r/selfhosted",
+          "relevance": "Why this matters for the reader's own stack (TOP PICKS only).",
+          "media": {"type": "image", "url": "https://preview.redd.it/example123.jpg"}
+        }
+      ]
+    },
+    {
+      "name": "AI and LLM",
+      "lead": false,
+      "articles": [
+        {
+          "title": "Example model release post",
+          "summary": "Short summary without the relevance field.",
+          "link": "https://www.reddit.com/r/LocalLLaMA/comments/1def456/example/",
+          "author": "/u/another_user",
+          "subreddit": "r/LocalLLaMA"
+        }
+      ]
+    }
+  ],
+  "integration_ideas": [
+    "Concrete actionable suggestion referencing your own infrastructure.",
+    "Another concrete suggestion."
+  ]
+}
